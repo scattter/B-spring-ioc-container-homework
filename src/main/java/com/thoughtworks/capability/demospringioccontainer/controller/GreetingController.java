@@ -1,5 +1,6 @@
-package com.thoughtworks.capability.demospringioccontainer;
+package com.thoughtworks.capability.demospringioccontainer.controller;
 
+import com.thoughtworks.capability.demospringioccontainer.service.GreetingService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;

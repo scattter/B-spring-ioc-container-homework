@@ -1,0 +1,5 @@
+- Spring里面的所有Bean都是由Ioc管理的
+- @Component 是Ioc容器自动注入Bean的注解
+- @Bean 是开发人员自己定义注册Bean的注解
+- @Component 相比 @Bean 来说扩展性不高,有局限性,不能自己配置name等
+- @Bean 自定义Bean 可以返回自己需要的对象
